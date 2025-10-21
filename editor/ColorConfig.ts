@@ -73,6 +73,10 @@ export class ColorConfig {
 				--pitch10-primary-channel:  #CE8BFF;
 				--pitch10-secondary-note:   #B757FF;
 				--pitch10-primary-note:     #DFACFF;
+                --pitch11-secondary-channel:#000080;
+				--pitch11-primary-channel:  #000080;
+				--pitch11-secondary-note:   #000080;
+				--pitch11-primary-note:     #000080;
 				--noise1-secondary-channel: #6F6F6F;
 				--noise1-primary-channel:   #AAAAAA;
 				--noise1-secondary-note:    #A7A7A7;
@@ -152,10 +156,10 @@ export class ColorConfig {
 				--pitch9-primary-channel:   #00B481;
 				--pitch9-secondary-note:    #28D1A1;
 				--pitch9-primary-note:      #00835E;
-				--pitch10-secondary-channel:#CA77FF;
-				--pitch10-primary-channel:  #9609FF;
-				--pitch10-secondary-note:   #B54FFF;
-				--pitch10-primary-note:     #8400E3;
+				--pitch11-secondary-channel:#000080;
+				--pitch11-primary-channel:  #000080;
+				--pitch11-secondary-note:   #000080;
+				--pitch11-primary-note:     #000080;
 				--noise1-secondary-channel: #C1C1C1;
 				--noise1-primary-channel:   #898989;
 				--noise1-secondary-note:    #ADADAD;
@@ -264,6 +268,13 @@ export class ColorConfig {
 			primaryChannel:   "var(--pitch10-primary-channel)",
 			secondaryNote:    "var(--pitch10-secondary-note)",
 			primaryNote:      "var(--pitch10-primary-note)",
+		},
+		}, {
+			name: "pitch11", // dark blue
+			secondaryChannel: "var(--pitch11-secondary-channel)",
+			primaryChannel:   "var(--pitch11-primary-channel)",
+			secondaryNote:    "var(--pitch11-secondary-note)",
+			primaryNote:      "var(--pitch11-primary-note)",
 		},
 	]);
 	public static readonly noiseChannels: DictionaryArray<ChannelColors> = toNameMap([
