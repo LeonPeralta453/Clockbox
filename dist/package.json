@@ -1,25 +1,24 @@
 {
-	"name": "beepbox",
-	"version": "4.2.1",
-	"author": "John Nesky",
-	"homepage": "https://www.beepbox.co",
-	"description": "BeepBox is an online tool for sketching and sharing instrumental music.",
+	"name": "clockbox",
+	"version": "1",
+	"author": "LeonPeralta453",
+	"homepage": "https://clockbox.co",
+	"description": "Clockbox is an mod of beepbox sometimes.",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/johnnesky/beepbox.git"
+		"url": "git+https://github.com/leonperalta453/clockbox.git"
 	},
 	"bugs": {
-		"url": "https://github.com/johnnesky/beepbox/issues"
+		"url": "https://github.com/leonperalta453/clockbox/issues"
 	},
-	"funding": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QZJTX9GRYEV9N&currency_code=USD",
 	"type": "module",
 	"main": "esm/synth/index.js",
 	"module": "esm/synth/index.js",
 	"browser": "esm/synth/index.js",
 	"types": "esm/synth/index.d.ts",
 	"keywords": [
-		"beepbox",
+		"clockbox",
 		"music",
 		"composition",
 		"tool",
